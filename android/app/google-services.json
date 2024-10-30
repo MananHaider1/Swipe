@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "961419777800",
+    "firebase_url": "https://jolii-me.firebaseio.com",
+    "project_id": "jolii-me",
+    "storage_bucket": "jolii-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961419777800:android:67ea7a995d144d74507ebd",
+        "android_client_info": {
+          "package_name": "com.appfliiq.jolii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961419777800-45o0fugs52bob8j6q6uhfrcevlg9qg2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appfliiq.jolii",
+            "certificate_hash": "af34e82cb6ddea0dac183f95b83c7e4817d59a00"
+          }
+        },
+        {
+          "client_id": "961419777800-iujmaf8iaadddmqhth3tffuonkds4n29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appfliiq.jolii",
+            "certificate_hash": "0e520b99c7bb0160841ecfa063130ad93951cb13"
+          }
+        },
+        {
+          "client_id": "961419777800-tdhp22g9snmeghmdmolah87af0q2er6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appfliiq.jolii",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961419777800-b12n5j0iqv1j621bnhskk3jhupo56ilh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdxvvDeyhm02gd1mxQhOuW-bakrgNki2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961419777800-b12n5j0iqv1j621bnhskk3jhupo56ilh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961419777800-9pufs3psehmdsg03ebd6d1qphkf0sm05.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.appfliiq.jolii"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<?xml
+  version="1.0"
+  encoding="utf-8"?>
+  
+<resources>
+  <!--! Change Facebook app name -->
+  <!-- <string
+    name="app_name">Lamat</string> -->
+
+  <!--! Change Facebook app id -->
+  <!-- <string
+    name="facebook_app_id">881276982877329</string> -->
+
+  <!--! Change Facebook Login protocol  -->
+  <!-- <string
+    name="fb_login_protocol_scheme">fb881276982877329</string> -->
+
+  <!--! Change Facebook Client token  -->
+  <!-- <string
+    name="facebook_client_token">50e1ce02ae5bed0bb363fa61bbe60867</string> -->
+
+  <!--! Change FCM Default Channel  -->
+  <string
+    name="default_notification_channel_id"
+    translatable="false">2022</string>
+</resources>

@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "jolii-me"
+  },
+  "targets": {
+    "jolii-me": {
+      "hosting": {
+        "lamatdating": [
+          "lamatt",
+          "lamatt.web.app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
