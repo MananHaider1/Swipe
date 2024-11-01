@@ -150,7 +150,6 @@ void main() async {
   FlutterNativeSplash.preserve(widgetsBinding: binds);
 
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
   );
 
   if (!kIsWeb) {

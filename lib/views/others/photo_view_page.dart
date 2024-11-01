@@ -127,7 +127,7 @@ class _PhotoViewPageState extends ConsumerState<PhotoViewPage> {
               onPressed: () async {
                 final String image = _images[_pageController.page!.round()];
                 await saveFile(context, link: LinkDetails(link: image));
-                CommonUI.showToast(msg: LocaleKeys.fileSavedSuccessfully.tr());
+              //  CommonUI.showToast(msg: LocaleKeys.fileSavedSuccessfully.tr());
               },
             ),
           )
@@ -287,8 +287,8 @@ class _SinglePhotoViewPage extends State<SinglePhotoViewPage> {
                         final String image =
                             _images[_pageController.page!.round()];
                         await saveFile(context, link: LinkDetails(link: image));
-                        CommonUI.showToast(
-                            msg: LocaleKeys.fileSavedSuccessfully.tr());
+                        // CommonUI.showToast(
+                        //     msg: LocaleKeys.fileSavedSuccessfully.tr());
                       },
                     ),
                   ))),

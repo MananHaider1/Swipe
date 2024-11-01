@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
 import 'package:lamatdating/constants.dart';
 import 'package:lamatdating/utils/theme_management.dart';
@@ -72,7 +71,7 @@ class StripePaymentHandle {
       displayPaymentSheet(succesFunc);
     } catch (e) {
       debugPrint(e.toString());
-      Fluttertoast.showToast(msg: e.toString());
+      //Fluttertoast.showToast(msg: e.toString());
     }
   }
 
@@ -81,13 +80,13 @@ class StripePaymentHandle {
       // 3. display the payment sheet.
       await Stripe.instance.presentPaymentSheet();
       callBackFunc;
-      Fluttertoast.showToast(msg: 'Payment succesfully completed');
+     // Fluttertoast.showToast(msg: 'Payment succesfully completed');
     } on Exception catch (e) {
       if (e is StripeException) {
-        Fluttertoast.showToast(
-            msg: 'Error from Stripe: ${e.error.localizedMessage}');
+        // Fluttertoast.showToast(
+        //     msg: 'Error from Stripe: ${e.error.localizedMessage}');
       } else {
-        Fluttertoast.showToast(msg: 'Unforeseen error: $e');
+        // Fluttertoast.showToast(msg: 'Unforeseen error: $e');
       }
     }
   }

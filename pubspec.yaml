@@ -74,7 +74,7 @@ dependencies:
   flutter_stripe:
   flutter_svg:
   flutter_video_info:
-  fluttertoast:
+#  fluttertoast:
   font_awesome_flutter:
   fraction:
   gallery_saver:
@@ -113,7 +113,7 @@ dependencies:
   photo_view:
   pip_view:
   purchases_flutter:
-  qr_code_scanner:
+#  qr_code_scanner:
   qr_flutter:
   receive_sharing_intent:
   restart_app:
@@ -181,7 +181,7 @@ dependency_overrides:
       ref: permissiondescriptor
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
 

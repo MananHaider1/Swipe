@@ -303,7 +303,7 @@ Future<bool> addWithdrawal(WithrawalModel withdrawalModel) async {
         'transactions': FieldValue.arrayUnion([withdrawTransaction.toMap()])
       });
 
-      CommonUI.showToast(msg: LocaleKeys.success.tr());
+      // CommonUI.showToast(msg: LocaleKeys.success.tr());
     });
 
     return true;
@@ -427,10 +427,10 @@ final sendBalanceProvider = FutureProvider.autoDispose
       transaction.update(recipientWalletDoc, {
         'transactions': FieldValue.arrayUnion([recipientTransaction.toMap()])
       });
-      CommonUI.showToast(msg: 'Funds Sent');
+      //CommonUI.showToast(msg: 'Funds Sent');
       return true;
     } else {
-      CommonUI.showToast(msg: 'Insufficient Balance');
+      //CommonUI.showToast(msg: 'Insufficient Balance');
       return false;
     }
   });

@@ -1418,7 +1418,6 @@ class BroadcastChatPageState extends ConsumerState<BroadcastChatPage>
             ?  1.20
             :  1.0),
         ),
-        swapCategoryAndBottomBar:  false,
         skinToneConfig: const emojipic.SkinToneConfig(),
         categoryViewConfig: const emojipic.CategoryViewConfig(),
         bottomActionBarConfig: const emojipic.BottomActionBarConfig(),

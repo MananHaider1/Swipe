@@ -214,20 +214,20 @@ class _ReportScreenState extends ConsumerState<ReportScreen> {
                             onPressed: () {
                               if (currentValue == null ||
                                   currentValue!.isEmpty) {
-                                CommonUI.showToast(
-                                    msg: LocaleKeys.pleaseSelectReason.tr());
+                                // CommonUI.showToast(
+                                //     msg: LocaleKeys.pleaseSelectReason.tr());
                                 return;
                               }
                               if (description.isEmpty) {
-                                CommonUI.showToast(
-                                    msg:
-                                        LocaleKeys.pleaseEnterDescription.tr());
+                                // CommonUI.showToast(
+                                //     msg:
+                                //         LocaleKeys.pleaseEnterDescription.tr());
                                 return;
                               }
                               if (contactInfo.isEmpty) {
-                                CommonUI.showToast(
-                                    msg: LocaleKeys.pleaseEnterContactDetail
-                                        .tr());
+                                // CommonUI.showToast(
+                                //     msg: LocaleKeys.pleaseEnterContactDetail
+                                //         .tr());
                                 return;
                               }
                               showDialog(

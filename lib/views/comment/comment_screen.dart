@@ -670,7 +670,7 @@ class _CommentScreenState extends ConsumerState<CommentScreen> {
                       overlayColor: WidgetStateProperty.all(Colors.transparent),
                       onTap: () {
                         if (commentText.isEmpty) {
-                          CommonUI.showToast(msg: 'enterCommentFirst'.tr());
+                         // CommonUI.showToast(msg: 'enterCommentFirst'.tr());
                         } else {
                           // EasyLoading.show();
                           if (widget.videoData != null) {

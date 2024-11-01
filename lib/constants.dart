@@ -9,9 +9,9 @@ import 'package:lamatdating/models/country_code.dart';
 import 'package:lamatdating/models/user_account_settings_model.dart';
 import 'package:lamatdating/models/user_profile_model.dart';
 
-const String Appname = '𝓵𝓪𝓶𝓪𝓽';
+const String Appname = 'Swipe Lfy';
 
-const bool isDemo = false;
+const bool isDemo = true;
 
 const bool showRestartButton = false;
 
@@ -47,7 +47,7 @@ const bool isCompanyHasAbout = true;
 
 const bool isCompanyHasContact = true;
 
-const String locationApiKey = "XXXXXXXXXXXXXXXXXXX";
+const String locationApiKey = "AIzaSyD2ox6XpAJdfAHZoLC1QaU7q7jvYR0NzjU";
 
 const String reCaptchaSiteKey = "XXXXXXXXXXXXXXXXXXX";
 
